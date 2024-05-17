@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    /* background: f1fbff; */
+    /* background-color: blue; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    margin-left: auto;
+    text-align: center;
+    /* align-items: center; */
+    position: relative;
+    width: 70vh;
+    height: auto;
+    /* background: rgb(65,21,7); */
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    box-shadow: 0 0 10px 5px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+.card label{
+    text-align: left;
+}
+.form-group input{
+    line-height: 4px;
+    /* border-style: dashed; */
+    border-color: #000000;
+    border-width: 1px;
+    outline: #000000;
+}
+.card-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    color: white;
+    background: rgb(65,21,7);
+}
+
+#app {
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#body_login {
+    width: 100%;
+    margin: 0;
+}
+/* button */
+.btn{
+    /* border: none; */
+    border-color: #000000;
+    background: rgb(0, 0, 0);
+    color: #fff;
+  }
+  .btn:hover{
+    /* border: none; */
+    /* background: rgb(255, 255, 255); */
+    background: rgb(65,21,7);
+    /* color: #000000; */
+    border-color: #030303;
+    /* opacity: 0.5; */
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  .form-check{
+    font-size: 14px;
+    text-align: left;
+  }
